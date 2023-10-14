@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coffee.cs" />
+    <Compile Include="DrinkFactory.cs" />
+    <Compile Include="IDrink.cs" />
+    <Compile Include="IDrinkFactory.cs" />
+    <Compile Include="IMakingProcess.cs" />
+    <Compile Include="ProcessCoffeeFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
